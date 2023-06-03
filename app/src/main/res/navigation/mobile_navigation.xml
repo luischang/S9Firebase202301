@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_listado">
+    <fragment
+        android:id="@+id/nav_listado"
+        android:name="com.example.s9firebase2023.ui.fragments.ListadoFragment"
+        android:label="fragment_listado"
+        tools:layout="@layout/fragment_listado" />
+    <fragment
+        android:id="@+id/nav_mascota"
+        android:name="com.example.s9firebase2023.ui.fragments.MascotaFragment"
+        android:label="fragment_mascota"
+        tools:layout="@layout/fragment_mascota" />
+    <fragment
+        android:id="@+id/nav_registro"
+        android:name="com.example.s9firebase2023.ui.fragments.RegistroFragment"
+        android:label="fragment_registro"
+        tools:layout="@layout/fragment_registro" />
+</navigation>
