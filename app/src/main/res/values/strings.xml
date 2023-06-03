@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">S9Firebase2023</string>
+    <string name="valbtnlogin">LOGIN</string>
 </resources>

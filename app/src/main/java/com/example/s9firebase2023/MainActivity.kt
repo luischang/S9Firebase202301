@@ -22,24 +22,24 @@ class MainActivity : AppCompatActivity() {
 
                 if (e != null) {
                     Log.w("Firebase", "Error al consultar la colección de cursos")
-                    Snackbar
-                        .make(
-                            findViewById(android.R.id.content),
-                            "Error al consultar",
-                            Snackbar.LENGTH_LONG
-                        ).show()
+//                    Snackbar
+//                        .make(
+//                            findViewById(android.R.id.content),
+//                            "Error al consultar",
+//                            Snackbar.LENGTH_LONG
+//                        ).show()
                     return@addSnapshotListener
                 }
 
                 for (dc in snapshots!!.documentChanges) {
                     when (dc.type) {
                         DocumentChange.Type.ADDED, DocumentChange.Type.MODIFIED -> {
-                            Snackbar
-                                .make(
-                                    findViewById(android.R.id.content),
-                                    "Consultando la colección",
-                                    Snackbar.LENGTH_LONG
-                                ).show()
+//                            Snackbar
+//                                .make(
+//                                    findViewById(android.R.id.content),
+//                                    "Consultando la colección",
+//                                    Snackbar.LENGTH_LONG
+//                                ).show()
                             tvCurso.text = dc.document.data["description"].toString()
                             tvNota.text = dc.document.data["score"].toString()
                         }
