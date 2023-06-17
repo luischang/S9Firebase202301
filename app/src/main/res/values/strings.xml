@@ -22,4 +22,11 @@
     <string name="valtxtcourse">Ingrese el curso</string>
     <string name="valtxtscore">Ingrese la nota</string>
     <string name="valbtnsavecourse">Guardar</string>
+    <string name="valbtnregister">REGISTRARSE</string>
+    <string name="valtitleregistro">Registro</string>
+    <string name="valbtnsaveregister">Register</string>
+    <string name="valtxtfullnameregister">Full name</string>
+    <string name="valtxtcountryregister">Country</string>
+    <string name="valtxtemailregister">Email</string>
+    <string name="valtxtpasswordregister">Password</string>
 </resources>

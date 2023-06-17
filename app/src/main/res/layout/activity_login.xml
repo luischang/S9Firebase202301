@@ -54,4 +54,14 @@
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtPassword" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="228dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/valbtnregister"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnLogin" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -18,6 +18,11 @@ class LoginActivity : AppCompatActivity() {
         val txtEmail = findViewById<EditText>(R.id.txtEmail)
         val txtPassword = findViewById<EditText>(R.id.txtPassword)
         val btnLogin = findViewById<Button>(R.id.btnLogin)
+        val btnRegister = findViewById<Button>(R.id.btnRegister)
+
+        btnRegister.setOnClickListener{
+            startActivity(Intent(this,RegisterActivity::class.java))
+        }
 
         btnLogin.setOnClickListener {
             val correo = txtEmail.text.toString()
