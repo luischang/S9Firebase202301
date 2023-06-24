@@ -32,4 +32,7 @@
     <string name="valtxtpasswordregister">Password</string>
     <string name="valtitlecustomerregister">Customer Register</string>
     <string name="valbtnsavecustomer">SAVE</string>
+    <string name="valtxtfirstname">Enter a first name</string>
+    <string name="valtxtlastname">Enter a last name</string>
+    <string name="valtxtphonenumber">Enter a phone number</string>
 </resources>

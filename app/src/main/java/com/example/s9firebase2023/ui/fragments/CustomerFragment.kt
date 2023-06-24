@@ -33,10 +33,7 @@ class CustomerFragment : Fragment() {
         val btnSaveCustomer: Button = view.findViewById(R.id.btnSaveCustomer)
 
         //viewModel = ViewModelProvider(this)[CustomerViewModel::class.java]
-        viewModel = ViewModelProvider(this
-            ,ViewModelProvider
-                .AndroidViewModelFactory
-                .getInstance(requireActivity().application))
+        viewModel = ViewModelProvider(this)
             .get(CustomerViewModel::class.java)
 
         btnSaveCustomer.setOnClickListener {

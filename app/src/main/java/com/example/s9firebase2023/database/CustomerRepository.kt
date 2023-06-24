@@ -13,10 +13,11 @@ class CustomerRepository(application: Application) {
         if(customerDao!=null)
             InsertAsyncTask(customerDao).execute(customerEntity)
     }
-    fun getCustomers(): LiveData<List<CustomerEntity>>{
-        return customerDao?.getCustomerOrderByLastName()?:MutableLiveData()
+    fun getCustomers(): LiveData<List<CustomerEntity>> {
+        return customerDao?.getCustomerOrderByLastName() ?: MutableLiveData<List<CustomerEntity>>().apply {
+            value = emptyList()
+        }
     }
-
     private class InsertAsyncTask
         (private val customerDao: CustomerDao):AsyncTask<CustomerEntity,Void,Void>(){
         override fun doInBackground(vararg customers: CustomerEntity?): Void? {
