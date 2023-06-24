@@ -19,4 +19,9 @@
         android:name="com.example.s9firebase2023.ui.fragments.RegistroFragment"
         android:label="fragment_registro"
         tools:layout="@layout/fragment_registro" />
+    <fragment
+        android:id="@+id/nav_pokemon"
+        android:name="com.example.s9firebase2023.ui.fragments.PokemonFragment"
+        android:label="fragment_pokemon"
+        tools:layout="@layout/fragment_pokemon" />
 </navigation>

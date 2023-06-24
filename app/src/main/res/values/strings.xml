@@ -15,6 +15,7 @@
     <string name="menu_listado">Listado</string>
     <string name="menu_registro">Registro</string>
     <string name="menu_mascota">Mascota</string>
+    <string name="menu_pokemon">Pokemon</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
@@ -29,4 +30,6 @@
     <string name="valtxtcountryregister">Country</string>
     <string name="valtxtemailregister">Email</string>
     <string name="valtxtpasswordregister">Password</string>
+    <string name="valbtnsearchpokemon">Search</string>
+    <string name="valetsearchpokemon">Ejm: pikachu</string>
 </resources>
