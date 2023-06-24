@@ -19,4 +19,9 @@
         android:name="com.example.s9firebase2023.ui.fragments.RegistroFragment"
         android:label="fragment_registro"
         tools:layout="@layout/fragment_registro" />
+    <fragment
+        android:id="@+id/nav_customer"
+        android:name="com.example.s9firebase2023.ui.fragments.CustomerFragment"
+        android:label="fragment_customer"
+        tools:layout="@layout/fragment_customer" />
 </navigation>
