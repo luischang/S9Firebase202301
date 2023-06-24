@@ -24,4 +24,10 @@
         android:name="com.example.s9firebase2023.ui.fragments.CustomerFragment"
         android:label="fragment_customer"
         tools:layout="@layout/fragment_customer" />
+   <fragment
+        android:id="@+id/nav_pokemon"
+        android:name="com.example.s9firebase2023.ui.fragments.PokemonFragment"
+        android:label="fragment_pokemon"
+        tools:layout="@layout/fragment_pokemon" />
+
 </navigation>
